@@ -1,0 +1,202 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="UTF-8">
+  <title>medisinstart</title>
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+
+
+<body>
+  <div class="container bg-light mt-3">
+    <h1 class="display-6 text-success">ACE-HEMMERE OG <br> ANTIOTENSIN II-ANTAGONISTER </h1>
+    <br>
+    <!-- <h2 class="display-6 text-success"><small> enalapril, kaptopril, lisinopril, ramipril 
+    AII-antagonister: eprosartan, irbesartan, kandesartan, losartan, olmesartan, telmisartan, valsartan</small></h2> -->
+    <form id="surveyForm">
+
+
+
+
+
+      <div class="form-group">
+        <label for="answer1">Har du kommet i gang med å bruke den nye medisinen?</label>
+        <select class="form-control" id="answer1">
+          <option>Ja</option>
+          <option>Nei</option>
+        </select>
+      </div>
+      <div class="form-group" id="additionalQuestionContainer1" style="display: none;">
+        <label for="additionalQuestion1">Kan du fortelle meg litt om hva som har hindret deg?</label>
+        <textarea class="form-control" id="additionalQuestion1"></textarea>
+      </div>
+      <br>
+      <!-- Hvis nei:
+      etterpaa til koomentaren at"Pas. har ikke kommet i gang med å bruke den nye medisinen pga.kommentarfeltet/forhindret ham/henne var at..."
+      -->
+
+
+
+
+
+      <div class="form-group">
+        <label for="answer2">Hvordan synes du det går å bruke den nye medisinen?</label>
+        <select class="form-control" id="answer2">
+          <option>Helt OK</option>
+          <!-- <option>Okay</option> -->
+          <option>Kommentar</option>
+        </select>
+      </div>
+      <div class="form-group" id="additionalQuestionContainer2" style="display: none;">
+        <label for="additionalQuestion2">Hva som var problematisk?</label>
+        <textarea class="form-control" id="additionalQuestion2"></textarea>
+      </div>
+      <br>
+
+
+
+
+
+      <div class="form-group">
+        <label for="answer3">Når tar du medisinen din i løpet av dagen/uken? <br>
+          Tar pasienten pasienten medisinen som foreskrevet, eller endret tidspunktet?</label>
+        <!-- answers: som avtalt/forskrevet
+            and: endret noe: -->
+        </label>
+        <select class="form-control" id="answer3">
+          <option>Som avtalt</option>
+          <option>Endret tidspunkt</option>
+        </select>
+      </div>
+      <div class="form-group" id="additionalQuestionContainer3" style="display: none;">
+        <label for="additionalQuestion3">Når tar du medisinen nå?</label>
+        <textarea class="form-control" id="additionalQuestion3"></textarea>
+      </div>
+      <br>
+
+
+
+
+
+      <div class="form-group">
+        <label for="answer4">Hvilken informasjon har du fått om hvorfor du tar denne medisinen?</label>
+        <select class="form-control" id="answer4">
+          <!-- answers: Nok, eller f.ex "pasienten visste ikke at..." -->
+          <option>Nok</option>
+          <option>Ikke nok</option>
+        </select>
+      </div>
+      <div class="form-group" id="additionalQuestionContainer4" style="display: none;">
+        <label for="additionalQuestion4">Måtte oplæres at:</label>
+        <textarea class="form-control" placeholder="eventuelt kan beskrives her" id="additionalQuestion4"></textarea>
+      </div>
+      <br>
+
+
+
+
+
+      <div class="form-group">
+        <label for="answer5">Har du noen bekymringer med å bruke den nye medisinen?</label>
+        <select class="form-control" id="answer5">
+          <option>Nei</option>
+          <option>Ja</option>
+        </select>
+      </div>
+      <div class="form-group" id="additionalQuestionContainer5" style="display: none;">
+        <label for="additionalQuestion5">Hvilke?</label>
+        <textarea class="form-control" id="additionalQuestion5"></textarea>
+      </div>
+      <br>
+
+
+
+
+
+      <div class="form-group">
+        <label for="answer6">Har du opplevd noen bivirkninger eller uventede effekter etter at du startet med den nye
+          medisinen?</label>
+        <select class="form-control" id="answer6">
+          <option>Nei</option>
+          <option>Ja</option>
+        </select>
+      </div>
+      <div class="form-group" id="additionalQuestionContainer6" style="display: none;">
+
+
+        <div class="form-check">
+          <input type="checkbox" class="form-check-input" id="check1" name="option1" value="something">
+          <label class="form-check-label" for="check1">Tretthet,
+            svimmelhet (Forebygging: <br>
+            • Dosering om kvelden
+            • Reise seg langsomt
+            • Ta legemidlet sammen med mat)</label>
+        </div>
+
+        <div class="form-check">
+          <input type="checkbox" class="form-check-input" id="check2" name="option2" value="something">
+          <label class="form-check-label" for="check2">Hodepine (Lindring:
+            • Smertestillende legemidler
+            (ikke NSAIDs))</label>
+        </div>
+        <div class="form-check">
+          <input type="checkbox" class="form-check-input">
+          <label class="form-check-label">Tørrhoste</label>
+        </div>
+        <div class="form-check">
+          <input type="checkbox" class="form-check-input">
+          <label class="form-check-label bg-danger">Angioødem
+            Hevelse i ansikt,
+            lepper, tunge og/
+            eller hals</label>
+        </div>
+        <div class="form-check">
+          <input type="checkbox" class="form-check-input">
+          <label class="form-check-label bg-danger">Akutt nyresvikt
+            Redusert
+            urinutskillelse,
+            oppkast, forvirring,
+            urinlukt av ånden</label>
+        </div>
+
+        <label for="additionalQuestion6">Andre:</label>
+        <input type="text" class="form-control" id="additionalQuestion6">
+
+      </div>
+      <br>
+
+
+
+      <div class="form-group">
+        <label for="answer7">Hender det noen ganger at du ikke får tatt medisinen din?</label>
+        <select class="form-control" id="answer7">
+          <option>Nei</option>
+          <option>Ja</option>
+        </select>
+      </div>
+      <div class="form-group" id="additionalQuestionContainer7" style="display: none;">
+        <label for="additionalQuestion7">Omtrent hvor ofte skjer dette? <br>
+          Hva tenker du selv kan være årsaker til dette? <br>
+          Hva tenker du kan være en løsning?:</label>
+        <textarea class="form-control" id="additionalQuestion7"></textarea>
+      </div>
+      <br>
+
+
+      <div class="d-grid gap-2 col-4 mx-auto">
+        <button type="button" class="btn btn-outline-success" id="nextButton">Ferdig</button>
+      </div>
+    </form>
+    <br>
+
+
+
+  </div>
+  <script src="script.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+
+</html>
