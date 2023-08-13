@@ -8,12 +8,15 @@ Nettside som samler dokumentasjon for Medisinstart tjenesten i apotek og forenkl
 ### ACEI og angiotensin II-antagonister <br>
 Undersøkelsen starter på den måten som er beskrevet i faktaarket, men farmasøyten kan velge svar fra pasienten i feltene under hvert spørsmål:
 
-![helt_ok_galt_1_medium](https://github.com/rado002/Medisinstart/assets/106912983/10ace683-3543-458a-ba64-cbc040a1bf56)
+![helt_ok_galt_1_hand](https://github.com/rado002/Medisinstart/assets/106912983/d61a9d32-73cb-4eda-b509-0f8cab3236d2)
+
 
 <br>
-Hvis ikke alt er i orden, er det mulig å åpne et ekstra kommentarfelt nederst for å skrive tilleggsinformasjon:
+Hvis ikke alt er i orden, er det mulig å åpne et ekstra kommentarfelt nederst for å skrive tilleggsinformasjon: <br>
+<br>
 
-![helt_ok_galt_2_medium](https://github.com/rado002/Medisinstart/assets/106912983/3dc09a5e-069b-4d5e-8063-d0ec10d9bb45)
+
+![helt_ok_galt_2_hand](https://github.com/rado002/Medisinstart/assets/106912983/873080d7-3212-434b-83e1-a35eb98d12c8)
 ![helt_ok_galt_4_medium](https://github.com/rado002/Medisinstart/assets/106912983/ca1514b5-da49-432a-87be-8e1d4be4f9ce)
 ![helt_ok_galt_5_hand_5](https://github.com/rado002/Medisinstart/assets/106912983/ea9e3357-5204-46cd-a3af-4f1738eb3712)
 
