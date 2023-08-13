@@ -7,6 +7,7 @@ Nettside som samler dokumentasjon for Medisinstart tjenesten i apotek og forenkl
 ## Eksempel
 ### ACEI og angiotensin II-antagonister <br>
 Undersøkelsen starter på den måten som er beskrevet i faktaarket, men farmasøyten kan velge svar fra pasienten i feltene under hvert spørsmål:
+
 ![helt_ok_galt_1_medium](https://github.com/rado002/Medisinstart/assets/106912983/10ace683-3543-458a-ba64-cbc040a1bf56)
 
 <br>
