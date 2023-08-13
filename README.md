@@ -21,7 +21,7 @@ Hvis ikke alt er i orden, er det mulig å åpne et ekstra kommentarfelt nederst 
 
 
 ## Utvikling
-Programmet vil konvertere hele skjemaet til et ferdig journalnotat, klart til å limes inn i det riktige feltet i Farmapro. Farmasøyten kan eventuelt redigere teksten litt, men slipper å skrive hele notatet selv, bare får en ferig tekst f.eks.: <br>
+Programmet vil konvertere hele skjemaet til et ferdig journalnotat, klart til å limes inn i det riktige feltet i Farmapro. Farmasøyten kan eventuelt redigere teksten litt, men slipper å skrive hele notatet selv, bare får en ferdig tekst f.eks.: <br>
 ___"Som forskrevet. Tar dosen om morgenen. Startet for ca. 2 uker siden.
 Pas. har begynt å oppleve svimmelhet etter å ha tatt tbl. Derfor får råd om å endre doseringstid fra morgen til kveld.
 Ber pasienten kontakte lege dersom symptomene vedvarer."___
