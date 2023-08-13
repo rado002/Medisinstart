@@ -20,10 +20,10 @@ Hvis ikke alt er i orden, er det mulig å åpne et ekstra kommentarfelt nederst 
 
 
 ## Utvikling
-Programmet vil konvertere hele skjemaet til et ferdig journalnotat, klart til å limes inn i det riktige feltet i Farmapro. Farmasøyten kan eventuelt redigere teksten litt, men slipper å skrive hele notatet selv lenger, bare får en ferig tekst f.eks.:
-
-"Som forskrevet. Tar dosen om morgenen. Startet for ca. 2 uker siden.
+Programmet vil konvertere hele skjemaet til et ferdig journalnotat, klart til å limes inn i det riktige feltet i Farmapro. Farmasøyten kan eventuelt redigere teksten litt, men slipper å skrive hele notatet selv lenger, bare får en ferig tekst f.eks.: <br>
+___"Som forskrevet. Tar dosen om morgenen. Startet for ca. 2 uker siden.
 Pas. har begynt å oppleve svimmelhet etter å ha tatt tbl. Derfor får råd om å endre doseringstid fra morgen til kveld.
-Ber pasienten kontakte lege dersom symptomene vedvarer."
+Ber pasienten kontakte lege dersom symptomene vedvarer."___
+
 
 I tillegg blir det mulig, f.eks., å gjennomføre en stor, anonymisert forskning for å finne relasjoner mellom faktorer som kan forårsake bivirkninger: helsetilstand, alder, BMI, kjønn, osv.
