@@ -39,7 +39,7 @@ document.addEventListener('DOMContentLoaded', function() {
   
   
     answer2Select.addEventListener('change', function() {
-      if (answer2Select.value === 'Kommentar') {
+      if (answer2Select.value === 'Noe galt') {
         additionalQuestionContainer2.style.display = 'block';
       } else {
         additionalQuestionContainer2.style.display = 'none';
